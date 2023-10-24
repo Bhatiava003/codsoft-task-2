@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 200%;
+    padding-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar{
+   display: flex;
+   background-color: orange;
+   background-blend-mode: lighten;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    padding-left: 700px;
+    color: white;
+    margin-top: 37px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav-list li{
+    list-style: none;
+    margin-left: 30%;
+}
+
+.nav-list li:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+.text{
+    padding-left: 33%;
+    padding-top: 13%;
+    padding-bottom: 27%;
+    color: white;
+    font-size: 60px;
+}
+
+.background{
+    background: rgba( 0, 0, 0, 7) url('../image/lemon.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.text_1{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.text_2{
+    font-size: 25;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.background_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image_3{
+    width: 50%;
+    height: 40%;
+    padding-left: 13%;
+}
+
+.text_3{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 11%;
+}
+
+.image_4{
+    height: 40%;
+    padding-right: -8%;   
+}
+
+.background_2{
+     justify-content: space-evenly; 
+}
+
+.text_4{
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-top: -6%; 
+}
+
+.text_5{
+    font-size: 45px;
+    margin-right: 7%;
+    margin-top: 7%; 
+}
+
+.text_6{
+    font-size: 25;
+    margin-right: 10%;
+    margin-top: 3%;   
+}
+
+.background_3{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.image_5{
+    height: 40%;
+    margin-top: 16%;
+    padding-right: -5%;
+}
+
+.image_6{
+    margin-top: 16%;
+    height: 50%;
+    padding-right: -1%;
+}
+
+.text_7{
+    margin-top: -26%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_8{
+    font-size: 30px;
+    color: black;
+    margin-left: 38%;
+}
+
+.text_9{
+    font-size: 25px;
+    margin-left: 22%;
+    margin-top: 3%;
+    color: black;
+}
+
+.text_10{
+    margin-top: -26%;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_11{
+    font-size: 30px;
+    color: black;
+    margin-right: 38%;
+}
+
+.text_12{
+    margin-top: 3%;
+    color: black;
+    margin-right: 22%;
+    font-size: 25px;
+}
+
+.text_13{
+    margin-right: 40%;
+    color: black;
+    font-size: 25px;
+}
+
+.text_14{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    margin-top: 12%;
+    font-size: 30px;
+}
+
+.card{
+    height: 40%;
+    width: 40%;
+    margin-left: 43%;
+}
+.card >  div > img{
+    border-radius: 60%;
+    height: 30%;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.card >  div > p{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    font-size: medium;
+}
+
+.card > div > b{
+    margin-left: 15%;
+}
+
+.background_4{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.image_7{
+    display: flex;
+}
